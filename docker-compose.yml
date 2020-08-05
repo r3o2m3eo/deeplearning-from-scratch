@@ -4,4 +4,6 @@ services:
     build: ./docker/python
     volumes:
       - ./server:/var/www/html
+    ports:
+      - "20022:22"
     tty: true

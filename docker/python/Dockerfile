@@ -7,6 +7,6 @@ RUN pip install \
         numpy \
         matplotlib
 
-EXPOSE 80
+EXPOSE 22
 
 CMD ["ipython"]
